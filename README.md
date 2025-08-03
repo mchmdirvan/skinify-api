@@ -1,3 +1,11 @@
-# Skinify API
+To install dependencies:
+```sh
+bun install
+```
 
-Skinify API is a RESTful API designed to provide skin for gadgets and devices. It allows users to customize the appearance of their devices with various skins.
+To run:
+```sh
+bun run dev
+```
+
+open http://localhost:3000
