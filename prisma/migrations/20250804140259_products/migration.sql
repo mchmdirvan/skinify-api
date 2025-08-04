@@ -7,7 +7,7 @@ CREATE TABLE "public"."Product" (
     "description" TEXT,
     "imageUrl" TEXT,
     "stockQuantity" INTEGER NOT NULL DEFAULT 0,
-    "price" DOUBLE PRECISION NOT NULL,
+    "price" INTEGER NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" TIMESTAMP(3) NOT NULL,
 
