@@ -23,8 +23,8 @@ model Product {
   description String?
   imageUrl    String?
 
-  stockQuantity Int   @default(0)
-  price         Float
+  stockQuantity Int @default(0)
+  price         Int
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
