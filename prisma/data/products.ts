@@ -1,5 +1,3 @@
-// File: ./data/seed-products.ts
-
 type ProductTypes = {
   name: string;
   sku?: string;
