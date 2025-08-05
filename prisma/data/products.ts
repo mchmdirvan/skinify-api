@@ -1,13 +1,11 @@
-type ProductTypes = {
-  name: string;
-  sku?: string;
-  description?: string;
-  imageUrl?: string;
-  stockQuantity: number;
-  price: number;
-};
+import { Product } from "../../src/generated/prisma";
 
-export const dataProducts: ProductTypes[] = [
+type SeedProduct = Pick<
+  Product,
+  "name" | "sku" | "description" | "imageUrl" | "stockQuantity" | "price"
+>;
+
+export const dataProducts: SeedProduct[] = [
   {
     name: "iPhone 16 Pro Skin - Matte Black",
     sku: "SKINIFY-IP16P-MTBK",
