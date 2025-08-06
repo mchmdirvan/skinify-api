@@ -19,6 +19,7 @@ model Product {
   slug String @unique
 
   name        String
+  brand       String?
   sku         String? @unique
   description String?
   imageUrl    String?
