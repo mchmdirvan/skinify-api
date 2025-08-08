@@ -12,21 +12,30 @@ app.get("/", (c) => {
   return c.text("Skinify Backend API");
 });
 
-const route = createRoute({
-  method: "get",
-  path: "/products",
-  responses: {
-    200: {
-      content: { "application/json": { schema: ProductsSchema } },
-      description: "Get all products",
+app.openapi(
+  createRoute({
+    method: "get",
+    path: "/products",
+    responses: {
+      200: {
+        content: { "application/json": { schema: ProductsSchema } },
+        description: "Get all products",
+      },
     },
+  }),
+  async (c) => {
+    const products = await prisma.product.findMany();
+
+    return c.json(products);
+  }
+);
+
+app.doc("/openapi.json", {
+  openapi: "3.0.0",
+  info: {
+    version: "1.0.0",
+    title: "Skinify API",
   },
-});
-
-app.openapi(route, async (c) => {
-  const products = await prisma.product.findMany();
-
-  return c.json(products);
 });
 
 export default app;
