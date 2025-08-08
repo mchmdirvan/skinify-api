@@ -1,16 +1,13 @@
-import { cors } from "hono/cors";
-
-import { prisma } from "./utils/prisma";
 import { createRoute, OpenAPIHono } from "@hono/zod-openapi";
+import { cors } from "hono/cors";
+import { Scalar } from "@scalar/hono-api-reference";
+
 import { ProductsSchema } from "./module/product/schema";
+import { prisma } from "./utils/prisma";
 
 const app = new OpenAPIHono();
 
 app.use(cors());
-
-app.get("/", (c) => {
-  return c.text("Skinify Backend API");
-});
 
 app.openapi(
   createRoute({
@@ -37,5 +34,7 @@ app.doc("/openapi.json", {
     title: "Skinify API",
   },
 });
+
+app.get("/", Scalar({ url: "/openapi.json" }));
 
 export default app;
