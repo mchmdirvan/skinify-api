@@ -15,3 +15,7 @@ export const ProductSchema = z.object({
 });
 
 export const ProductsSchema = z.array(ProductSchema);
+
+export const ProductsSlugSchema = z.object({
+  slug: z.string(),
+});
