@@ -6,7 +6,7 @@ import {
   ProductSchema,
   ProductsSchema,
   ProductsSlugSchema,
-} from "./module/product/schema";
+} from "./modules/product/schema";
 import { prisma } from "./utils/prisma";
 
 const app = new OpenAPIHono();
