@@ -1,5 +1,9 @@
 # Skinify Backend
 
+## ERD Diagram
+
+![ERD Diagram](/public/erd.png)
+
 ## REST API Specification
 
 - Production: `https://skinify-api.onrender.com`
