@@ -14,18 +14,47 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model Brand {
+  id   String @id @default(cuid())
+  slug String @unique
+
+  name String
+
+  models Model[]
+
+  createdAt DateTime @default(now())
+  updateAt  DateTime @updatedAt
+}
+
+model Model {
+  id   String @id @default(cuid())
+  slug String @unique
+
+  name String
+
+  Brand     Brand?  @relation(fields: [brandSlug], references: [slug])
+  brandSlug String?
+
+  products Product[]
+
+  createdAt DateTime @default(now())
+  updateAt  DateTime @updatedAt
+}
+
 model Product {
   id   String @id @default(cuid())
   slug String @unique
 
   name        String
-  brand       String?
   sku         String? @unique
   description String?
   imageUrl    String?
 
   stockQuantity Int @default(0)
   price         Int
+
+  Model     Model?  @relation(fields: [modelSlug], references: [slug])
+  modelSlug String? @map("modelId")
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
