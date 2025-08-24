@@ -43,13 +43,13 @@ brandRoute.openapi(
   async (c) => {
     const { slug } = c.req.valid("param");
 
-    const product = await prisma.product.findUnique({
+    const brand = await prisma.brand.findUnique({
       where: { slug },
     });
-    if (!product) {
+    if (!brand) {
       return c.json({ message: "Product not found" }, 404);
     }
 
-    return c.json(product);
+    return c.json(brand);
   }
 );
