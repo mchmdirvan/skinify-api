@@ -33,7 +33,7 @@ brandRoute.openapi(
     responses: {
       200: {
         content: { "application/json": { schema: BrandSchema } },
-        description: "Get brand",
+        description: "Get brand by slug",
       },
       404: {
         description: "Not found",
@@ -45,6 +45,9 @@ brandRoute.openapi(
 
     const brand = await prisma.brand.findUnique({
       where: { slug },
+      include: {
+        models: true,
+      },
     });
     if (!brand) {
       return c.json({ message: "Product not found" }, 404);

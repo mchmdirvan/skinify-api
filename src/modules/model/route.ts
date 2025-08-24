@@ -33,7 +33,7 @@ modelRoute.openapi(
     responses: {
       200: {
         content: { "application/json": { schema: ModelSchema } },
-        description: "Get model",
+        description: "Get Model by slug",
       },
       404: {
         description: "Not found",
@@ -45,6 +45,9 @@ modelRoute.openapi(
 
     const model = await prisma.model.findUnique({
       where: { slug },
+      include: {
+        products: true,
+      },
     });
     if (!model) {
       return c.json({ message: "Product not found" }, 404);
