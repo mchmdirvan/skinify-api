@@ -8,7 +8,7 @@ export const productRoute = new OpenAPIHono();
 productRoute.openapi(
   createRoute({
     method: "get",
-    path: "/products",
+    path: "/",
     responses: {
       200: {
         content: { "application/json": { schema: ProductsSchema } },
@@ -26,7 +26,7 @@ productRoute.openapi(
 productRoute.openapi(
   createRoute({
     method: "get",
-    path: "/products/{slug}",
+    path: "/{slug}",
     request: {
       params: ProductsSlugSchema,
     },
