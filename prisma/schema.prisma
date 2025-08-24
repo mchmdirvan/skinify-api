@@ -47,10 +47,9 @@ model Product {
   id   String @id @default(cuid())
   slug String @unique
 
-  name        String
-  sku         String? @unique
-  description String?
-  imageUrl    String?
+  name     String
+  sku      String? @unique
+  imageUrl String?
 
   stockQuantity Int @default(0)
   price         Int
