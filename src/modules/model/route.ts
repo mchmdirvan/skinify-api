@@ -12,7 +12,7 @@ modelRoute.openapi(
     responses: {
       200: {
         content: { "application/json": { schema: ModelsSchema } },
-        description: "Get all model",
+        description: "Get all models",
       },
     },
   }),

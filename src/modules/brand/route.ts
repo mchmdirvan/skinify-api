@@ -12,7 +12,7 @@ brandRoute.openapi(
     responses: {
       200: {
         content: { "application/json": { schema: BrandsSchema } },
-        description: "Get all brand",
+        description: "Get all brands",
       },
     },
   }),
@@ -33,7 +33,7 @@ brandRoute.openapi(
     responses: {
       200: {
         content: { "application/json": { schema: BrandSchema } },
-        description: "Get all brand",
+        description: "Get brand",
       },
       404: {
         description: "Not found",
