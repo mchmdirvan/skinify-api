@@ -3,12 +3,14 @@ import { OpenAPIHono } from "@hono/zod-openapi";
 import { cors } from "hono/cors";
 
 import { productRoute } from "./modules/product/route";
+import { brandRoute } from "./modules/brand/route";
 
 const app = new OpenAPIHono();
 
 app.use(cors());
 
 app.route("/products", productRoute);
+app.route("/brands", brandRoute);
 
 app.doc("/openapi.json", {
   openapi: "3.0.0",
