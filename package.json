@@ -17,17 +17,17 @@
   },
   "dependencies": {
     "@hono/zod-openapi": "^1.1.0",
-    "@prisma/client": "^6.13.0",
-    "@scalar/hono-api-reference": "^0.9.13",
-    "@types/node": "^24.2.0",
-    "hono": "^4.8.12",
+    "@prisma/client": "^6.14.0",
+    "@scalar/hono-api-reference": "^0.9.15",
+    "@types/node": "^24.3.0",
+    "hono": "^4.9.4",
     "slugify": "^1.6.6",
-    "tsx": "^4.20.3",
+    "tsx": "^4.20.5",
     "typescript": "^5.9.2",
     "zod": "^4.1.1"
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "prisma": "^6.13.0"
+    "prisma": "^6.14.0"
   }
 }
