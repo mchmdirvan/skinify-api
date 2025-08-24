@@ -18,7 +18,8 @@ model Brand {
   id   String @id @default(cuid())
   slug String @unique
 
-  name String
+  name     String
+  imageUrl String
 
   models Model[]
 
@@ -30,7 +31,8 @@ model Model {
   id   String @id @default(cuid())
   slug String @unique
 
-  name String
+  name     String
+  imageUrl String
 
   Brand     Brand?  @relation(fields: [brandSlug], references: [slug])
   brandSlug String?
