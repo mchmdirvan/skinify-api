@@ -12,7 +12,7 @@ export const dataProducts: SeedProduct[] = [
     sku: "SKINIFY-IP16-SLATE",
     modelSlug: "iphone-16",
     imageUrl:
-      "https://ucarecdn.com/f650359b-3692-4e47-9450-8caabf85999c/Screenshot_20250818_151029removebgpreview.png",
+      "https://ucarecdn.com/365910df-c023-469d-98c4-b859cbd89886/iPhone16.png",
     stockQuantity: 100,
     price: 159000,
   },
