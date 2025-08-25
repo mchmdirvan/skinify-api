@@ -37,7 +37,7 @@ userRoute.openapi(
     responses: {
       200: {
         content: { "application/json": { schema: UserSchema } },
-        description: "Get user by slug",
+        description: "Get user by id",
       },
       404: {
         description: "Not found",
@@ -49,6 +49,9 @@ userRoute.openapi(
 
     const product = await prisma.user.findUnique({
       where: { id },
+      omit: {
+        email: true,
+      },
     });
     if (!product) {
       return c.json({ message: "Product not found" }, 404);
