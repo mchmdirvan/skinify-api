@@ -71,12 +71,12 @@ authRoute.openapi(
 
 authRoute.openapi(
   createRoute({
-    method: "post",
+    method: "get",
     path: "/me",
     responses: {
       200: {
         content: { "application/json": { schema: PrivateUserSchema } },
-        description: "Login success",
+        description: "Get authenticated user success",
       },
       404: {
         description: "User not found",
