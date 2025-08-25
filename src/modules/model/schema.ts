@@ -1,4 +1,4 @@
-import z from "zod";
+import { z } from "@hono/zod-openapi";
 
 export const ModelSchema = z.object({
   id: z.string(),
