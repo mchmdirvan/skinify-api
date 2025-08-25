@@ -1,6 +1,6 @@
 import { z } from "@hono/zod-openapi";
 
-export const BaseUserSchema = z.object({
+export const UserSchema = z.object({
   id: z.string(),
   username: z.string(),
   email: z.string(),
@@ -9,9 +9,9 @@ export const BaseUserSchema = z.object({
   updatedAt: z.date(),
 });
 
-export const PrivateUserSchema = BaseUserSchema;
+export const PrivateUserSchema = UserSchema;
 
-export const PublicUserSchema = BaseUserSchema.omit({
+export const PublicUserSchema = UserSchema.omit({
   email: true,
 });
 
