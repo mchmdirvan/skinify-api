@@ -17,7 +17,13 @@ userRoute.openapi(
     },
   }),
   async (c) => {
-    const users = await prisma.user.findMany();
+    const users = await prisma.user.findMany({
+      select: {
+        id: true,
+        username: true,
+        fullName: true,
+      },
+    });
 
     return c.json(users);
   }
