@@ -1,6 +1,6 @@
 import { createRoute, OpenAPIHono } from "@hono/zod-openapi";
 
-import { UserIdSchema, UserSchema, UsersSchema } from "./schema";
+import { UserIdSchema, PublicUserSchema, UsersSchema } from "./schema";
 import { prisma } from "../../utils/prisma";
 
 export const userRoute = new OpenAPIHono();
@@ -36,7 +36,7 @@ userRoute.openapi(
     },
     responses: {
       200: {
-        content: { "application/json": { schema: UserSchema } },
+        content: { "application/json": { schema: PublicUserSchema } },
         description: "Get user by id",
       },
       404: {
