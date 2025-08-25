@@ -12,7 +12,7 @@ app.use(cors());
 
 app.route("/products", productRoute);
 app.route("/brands", brandRoute);
-app.route("/model", modelRoute);
+app.route("/models", modelRoute);
 
 app.doc("/openapi.json", {
   openapi: "3.0.0",
