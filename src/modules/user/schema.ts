@@ -4,6 +4,8 @@ export const UserSchema = z.object({
   id: z.string(),
   username: z.string(),
   fullName: z.string(),
+  createdAt: z.date(),
+  updatedAt: z.date(),
 });
 
 export const UsersSchema = z.array(UserSchema);
