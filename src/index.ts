@@ -6,6 +6,7 @@ import { productRoute } from "./modules/product/route";
 import { brandRoute } from "./modules/brand/route";
 import { modelRoute } from "./modules/model/route";
 import { userRoute } from "./modules/user/route";
+import { authRoute } from "./modules/auth/route";
 
 const app = new OpenAPIHono();
 
@@ -15,6 +16,7 @@ app.route("/products", productRoute);
 app.route("/brands", brandRoute);
 app.route("/models", modelRoute);
 app.route("/users", userRoute);
+app.route("/auth", authRoute);
 
 app.doc("/openapi.json", {
   openapi: "3.0.0",
