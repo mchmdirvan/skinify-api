@@ -16,6 +16,12 @@ export const AuthLoginSuccessSchema = z.object({
   token: z.string(),
 });
 
+export const AuthHeaderSchema = z.object({
+  Authorization: z.string().openapi({
+    example: "Bearer TOKEN",
+  }),
+});
+
 export const AuthMeSchema = z.object({
   id: z.string(),
   email: z.string(),

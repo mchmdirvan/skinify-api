@@ -2,6 +2,7 @@ import { createRoute, OpenAPIHono, z } from "@hono/zod-openapi";
 
 import { PrivateUserSchema } from "../user/schema";
 import {
+  AuthHeaderSchema,
   AuthLoginSchema,
   AuthLoginSuccessSchema,
   AuthRegisterSchema,
@@ -117,11 +118,7 @@ authRoute.openapi(
     method: "get",
     path: "/me",
     request: {
-      headers: z.object({
-        authorization: z.string().openapi({
-          example: "Bearer TOKEN",
-        }),
-      }),
+      headers: AuthHeaderSchema,
     },
     responses: {
       200: {
