@@ -12,6 +12,10 @@ export const AuthLoginSchema = z.object({
   password: z.string(),
 });
 
+export const AuthLoginSuccessSchema = z.object({
+  token: z.string(),
+});
+
 export const AuthMeSchema = z.object({
   id: z.string(),
   email: z.string(),

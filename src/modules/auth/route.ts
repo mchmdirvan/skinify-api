@@ -1,9 +1,14 @@
 import { createRoute, OpenAPIHono } from "@hono/zod-openapi";
 
 import { PrivateUserSchema } from "../user/schema";
-import { AuthLoginSchema, AuthRegisterSchema } from "./schema";
+import {
+  AuthLoginSchema,
+  AuthLoginSuccessSchema,
+  AuthRegisterSchema,
+} from "./schema";
 import { prisma } from "../../utils/prisma";
 import { hashPassword, verifyPassword } from "../../utils/password";
+import { signToken } from "../../utils/token";
 
 export const authRoute = new OpenAPIHono();
 
@@ -62,7 +67,7 @@ authRoute.openapi(
     },
     responses: {
       200: {
-        content: { "application/json": { schema: PrivateUserSchema } },
+        content: { "application/json": { schema: AuthLoginSuccessSchema } },
         description: "Login success",
       },
       400: {
@@ -101,9 +106,9 @@ authRoute.openapi(
       return c.json({ message: "Password Invalid!" }, 400);
     }
 
-    const { password, ...userWithoutPassword } = user;
+    const token = await signToken(user.id);
 
-    return c.json(userWithoutPassword);
+    return c.json({ token });
   }
 );
 
