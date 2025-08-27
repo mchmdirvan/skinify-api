@@ -50,6 +50,7 @@ authRoute.openapi(
 
       return c.json(user, 201);
     } catch (error) {
+      console.error(error);
       return c.json(
         {
           message: "Register user failed",
