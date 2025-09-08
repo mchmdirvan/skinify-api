@@ -14,55 +14,6 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Brand {
-  id   String @id @default(cuid())
-  slug String @unique
-
-  name     String
-  imageUrl String
-
-  models Model[]
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-}
-
-model Model {
-  id   String @id @default(cuid())
-  slug String @unique
-
-  name     String
-  imageUrl String
-
-  Brand     Brand?  @relation(fields: [brandSlug], references: [slug])
-  brandSlug String?
-
-  products Product[]
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-}
-
-model Product {
-  id   String @id @default(cuid())
-  slug String @unique
-
-  name     String
-  sku      String? @unique
-  imageUrl String?
-
-  stockQuantity Int @default(0)
-  price         Int
-
-  Model     Model?  @relation(fields: [modelSlug], references: [slug])
-  modelSlug String? @map("modelId")
-
-  CartItem CartItem[]
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-}
-
 model User {
   id String @id @default(ulid())
 
@@ -112,6 +63,55 @@ model CartItem {
 
   product   Product @relation(fields: [productId], references: [id], onUpdate: Cascade, onDelete: Cascade)
   productId String
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Brand {
+  id   String @id @default(cuid())
+  slug String @unique
+
+  name     String
+  imageUrl String
+
+  models Model[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Model {
+  id   String @id @default(cuid())
+  slug String @unique
+
+  name     String
+  imageUrl String
+
+  Brand     Brand?  @relation(fields: [brandSlug], references: [slug])
+  brandSlug String?
+
+  products Product[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Product {
+  id   String @id @default(cuid())
+  slug String @unique
+
+  name     String
+  sku      String? @unique
+  imageUrl String?
+
+  stockQuantity Int @default(0)
+  price         Int
+
+  Model     Model?  @relation(fields: [modelSlug], references: [slug])
+  modelSlug String? @map("modelId")
+
+  CartItem CartItem[]
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
