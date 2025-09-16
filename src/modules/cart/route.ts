@@ -1,8 +1,8 @@
 import { createRoute, OpenAPIHono, z } from "@hono/zod-openapi";
 
+import { AddCartItemSchema, CartItemSchema, CartSchema } from "./schema";
 import { checkAuthorized } from "../auth/middleware";
 import { AuthHeaderSchema } from "../auth/schema";
-import { AddCartItemSchema, CartItemSchema, CartSchema } from "./schema";
 import { prisma } from "../../utils/prisma";
 
 export const cartRoute = new OpenAPIHono();
@@ -22,7 +22,7 @@ cartRoute.openapi(
         description: "Get cart",
       },
       404: {
-        description: "User not found",
+        description: "Cart not found",
       },
     },
   }),
