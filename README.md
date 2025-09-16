@@ -1,8 +1,10 @@
 # Skinify Backend
 
+![Cover](./public/cover.png)
+
 ## ERD Diagram
 
-<!-- ![ERD Diagram](/public/erd.png) -->
+![ERD Diagram](/public/erd.png)
 
 ## REST API Specification
 
