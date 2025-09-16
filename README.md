@@ -1,5 +1,7 @@
 # Skinify Backend
 
+A backend API for Skinify, an e-commerce website for mobile skins. Built with Bun, Hono, Prisma, and PostgreSQL.
+
 ![Cover](./public/cover.png)
 
 ## ERD Diagram
@@ -13,28 +15,26 @@
 
 Products:
 
-| Endpoint        | HTTP     | Description          |
-| --------------- | -------- | -------------------- |
-| `/products`     | `GET`    | Get all products     |
-| `/products/:id` | `GET`    | Get product by id    |
-| `/products`     | `POST`   | Add new product      |
-| `/products/:id` | `DELETE` | Delete product by id |
-| `/products/:id` | `PUT`    | Update product by id |
+| Endpoint          | HTTP  | Description         |
+| ----------------- | ----- | ------------------- |
+| `/brands`         | `GET` | Get all brands      |
+| `/brands/:slug`   | `GET` | Get brand by slug   |
+| `/models`         | `GET` | Get all models      |
+| `/models/:slug`   | `GET` | Get model by slug   |
+| `/products`       | `GET` | Get all products    |
+| `/products/:slug` | `GET` | Get product by slug |
 
 Auth:
 
-| Endpoint           | HTTP     | Permission    |
-| ------------------ | -------- | ------------- |
-| `/users`           | `GET`    | Public        |
-| `/users/:username` | `GET`    | Public        |
-| `/auth/register`   | `POST`   | Public        |
-| `/auth/login`      | `POST`   | Public        |
-| `/auth/me`         | `GET`    | Authenticated |
-| `/auth/logout`     | `POST`   | Authenticated |
-| `/cart`            | `GET`    | Authenticated |
-| `/cart/items`      | `POST`   | Authenticated |
-| `/cart/items/:id`  | `DELETE` | Authenticated |
-| `/cart/items/:id`  | `PUT`    | Authenticated |
+| Endpoint         | HTTP   | Permission    |
+| ---------------- | ------ | ------------- |
+| `/users`         | `GET`  | Public        |
+| `/users/:id`     | `GET`  | Public        |
+| `/auth/register` | `POST` | Public        |
+| `/auth/login`    | `POST` | Public        |
+| `/auth/me`       | `GET`  | Authenticated |
+| `/cart`          | `GET`  | Authenticated |
+| `/cart/items`    | `POST` | Authenticated |
 
 ## Getting Started
 
