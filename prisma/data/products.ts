@@ -1317,7 +1317,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S24 Skins - Slate",
     sku: "SKINIFY-S24-SLATE",
     modelSlug: "galaxy-s24",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/5c61408b-b343-4e09-8287-eabf9849b04c/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 159000,
   },
@@ -1325,7 +1326,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S24 Skins - Patina",
     sku: "SKINIFY-S24-PATINA",
     modelSlug: "galaxy-s24",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/2aa5f9c8-178b-4ca0-9d5f-b66f9bb0c4f9/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 159000,
   },
@@ -1333,7 +1335,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S24 Skins - Black Camo",
     sku: "SKINIFY-S24-BLACKCAMO",
     modelSlug: "galaxy-s24",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/d2f4d31b-9382-4d94-86ff-506fd2009c64/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 159000,
   },
@@ -1341,7 +1344,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S24 Skins - Matte Black",
     sku: "SKINIFY-S24-MATTEBLACK",
     modelSlug: "galaxy-s24",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/0d7daa25-5c52-4d85-ba66-210b135cdfa9/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -1349,7 +1353,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S24 Skins - Matte White",
     sku: "SKINIFY-S24-MATTEWHITE",
     modelSlug: "galaxy-s24",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/0d7daa25-5c52-4d85-ba66-210b135cdfa9/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -1357,7 +1362,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S24 Skins - Artic Blue",
     sku: "SKINIFY-S24-ARTICBLUE",
     modelSlug: "galaxy-s24",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/28e4fdfd-0685-44b2-81e8-c6ffd3b6e03d/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -1365,7 +1371,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S24 Skins - Glacial Green",
     sku: "SKINIFY-S24-GLACIALGREEN",
     modelSlug: "galaxy-s24",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/6df37d6f-1bac-499a-b609-7fb59df424b1/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -1373,7 +1380,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S24 Skins - Mellow Yellow",
     sku: "SKINIFY-S24-MELLOWYELLOW",
     modelSlug: "galaxy-s24",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/82d74926-c497-49e0-8d6b-c4741b4dec05/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -1381,7 +1389,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S24 Skins - Petal Pink",
     sku: "SKINIFY-S24-PETALPINK",
     modelSlug: "galaxy-s24",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/eac3054f-eaa7-4fa3-a0be-c914a38bffa8/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -1389,7 +1398,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S24 Skins - Blush Pink",
     sku: "SKINIFY-S24-BLUSHPINK",
     modelSlug: "galaxy-s24",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/7e2aa8c6-9098-4aaf-9b03-0af4f1c84883/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -1397,7 +1407,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S24 Skins - Emerald Green",
     sku: "SKINIFY-S24-EMERALDGREEN",
     modelSlug: "galaxy-s24",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/34d888ab-94cb-4124-8e65-45f3c67d069f/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -1405,7 +1416,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S24 Skins - Lust Red",
     sku: "SKINIFY-S24-LUSTRED",
     modelSlug: "galaxy-s24",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/a251c5af-9cb2-48ae-b7bb-a8703e95647e/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -1421,7 +1433,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S24 Skins - Marble White",
     sku: "SKINIFY-S24-MARBLEWHITE",
     modelSlug: "galaxy-s24",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/74d70780-656a-48ee-8357-eb7e43d373c5/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -1429,7 +1442,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S24 Skins - Leather Black",
     sku: "SKINIFY-S24-LEATHERBLACK",
     modelSlug: "galaxy-s24",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/079fe487-7d59-4fe4-a00c-b9efc4238124/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -1437,10 +1451,12 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S24 Skins - Titanium Black",
     sku: "SKINIFY-S24-TITANIUMBLACK",
     modelSlug: "galaxy-s24",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/277149de-8456-43d6-8254-54675ae8e6b3/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
+
   // Xiaomi 15 Ultra
   {
     name: "Xiaomi 15 Ultra Skins - Slate",
