@@ -442,7 +442,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16 Pro Max Skins - Slate",
     sku: "SKINIFY-IP16PM-SLATE",
     modelSlug: "iphone-16-pro-max",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/ea3fd353-1046-4d73-9fec-f20df398d857/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 159000,
   },
@@ -450,7 +451,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16 Pro Max Skins - Patina",
     sku: "SKINIFY-IP16PM-PATINA",
     modelSlug: "iphone-16-pro-max",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/c37610e3-f351-4ca5-a151-338d47a6824c/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 159000,
   },
@@ -458,7 +460,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16 Pro Max Skins - Black Camo",
     sku: "SKINIFY-IP16PM-BLACKCAMO",
     modelSlug: "iphone-16-pro-max",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/c3e8e1c0-8c63-4b30-a9a8-ec868be6adc4/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 159000,
   },
@@ -466,7 +469,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16 Pro Max Skins - Matte Black",
     sku: "SKINIFY-IP16PM-MATTEBLACK",
     modelSlug: "iphone-16-pro-max",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/5f5fe105-78da-416a-837d-435b3b9ace2a/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -474,7 +478,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16 Pro Max Skins - Matte White",
     sku: "SKINIFY-IP16PM-MATTEWHITE",
     modelSlug: "iphone-16-pro-max",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/0d27756c-cab8-4b93-9752-3bf66bf5269f/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -482,7 +487,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16 Pro Max Skins - Artic Blue",
     sku: "SKINIFY-IP16PM-ARTICBLUE",
     modelSlug: "iphone-16-pro-max",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/3a669155-32c0-4f6e-b46c-62249b57a0c9/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -490,7 +496,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16 Pro Max Skins - Glacial Green",
     sku: "SKINIFY-IP16PM-GLACIALGREEN",
     modelSlug: "iphone-16-pro-max",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/3384f12d-d73e-4fb9-8a9c-49f50080c421/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -498,7 +505,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16 Pro Max Skins - Mellow Yellow",
     sku: "SKINIFY-IP16PM-MELLOWYELLOW",
     modelSlug: "iphone-16-pro-max",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/478eabc1-ae99-4947-ac23-43d1c597a36a/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -506,7 +514,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16 Pro Max Skins - Petal Pink",
     sku: "SKINIFY-IP16PM-PETALPINK",
     modelSlug: "iphone-16-pro-max",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/f76ef204-827c-4f61-9982-958b3fedc1b2/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -514,7 +523,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16 Pro Max Skins - Blush Pink",
     sku: "SKINIFY-IP16PM-BLUSHPINK",
     modelSlug: "iphone-16-pro-max",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/e8549bd5-9665-40e4-9b73-1e4b18291be8/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -522,7 +532,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16 Pro Max Skins - Emerald Green",
     sku: "SKINIFY-IP16PM-EMERALDGREEN",
     modelSlug: "iphone-16-pro-max",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/edc63f74-1bb1-4a9e-a112-be617c4073ae/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -530,7 +541,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16 Pro Max Skins - Lust Red",
     sku: "SKINIFY-IP16PM-LUSTRED",
     modelSlug: "iphone-16-pro-max",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/84c1aab5-00af-447d-b6dd-b5bbe5463bf8/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -538,7 +550,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16 Pro Max Skins - Lemon Yellow",
     sku: "SKINIFY-IP16PM-LEMONYELLOW",
     modelSlug: "iphone-16-pro-max",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/0f1304c4-9fde-4779-8741-240e2ba95ac0/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -546,7 +559,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16 Pro Max Skins - Marble White",
     sku: "SKINIFY-IP16PM-MARBLEWHITE",
     modelSlug: "iphone-16-pro-max",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/46d0cd6e-a8c8-45c6-a677-ac5b3dd20664/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -554,7 +568,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16 Pro Max Skins - Leather Black",
     sku: "SKINIFY-IP16PM-LEATHERBLACK",
     modelSlug: "iphone-16-pro-max",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/3aa0b4e7-81b1-418f-b557-a9d6f8d966ad/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -562,7 +577,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16 Pro Max Skins - Titanium Black",
     sku: "SKINIFY-IP16PM-TITANIUMBLACK",
     modelSlug: "iphone-16-pro-max",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/7f86311d-8bd2-4118-b7df-c66d9200245d/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
