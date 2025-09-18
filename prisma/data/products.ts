@@ -588,7 +588,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 15 Skins - Slate",
     sku: "SKINIFY-IP15-SLATE",
     modelSlug: "iphone-15",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/87cb3d93-01e4-445b-9d05-ffcb51cd1d1c/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 159000,
   },
@@ -596,7 +597,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 15 Skins - Patina",
     sku: "SKINIFY-IP15-PATINA",
     modelSlug: "iphone-15",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/5114a062-981e-4d44-a351-5527cfea482b/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 159000,
   },
@@ -604,7 +606,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 15 Skins - Black Camo",
     sku: "SKINIFY-IP15-BLACKCAMO",
     modelSlug: "iphone-15",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/88e75ed9-f9b3-4133-abb8-6e5e3068d1a9/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 159000,
   },
@@ -612,7 +615,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 15 Skins - Matte Black",
     sku: "SKINIFY-IP15-MATTEBLACK",
     modelSlug: "iphone-15",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/d95f79e6-e7df-4641-822c-b0de8e0b1167/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -620,7 +624,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 15 Skins - Matte White",
     sku: "SKINIFY-IP15-MATTEWHITE",
     modelSlug: "iphone-15",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/42d6b10a-9e4b-49b8-95ba-597ca83e8be9/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -628,7 +633,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 15 Skins - Artic Blue",
     sku: "SKINIFY-IP15-ARTICBLUE",
     modelSlug: "iphone-15",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/4d8fcf43-fed4-4460-9ebd-5ce35845a4de/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -636,7 +642,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 15 Skins - Glacial Green",
     sku: "SKINIFY-IP15-GLACIALGREEN",
     modelSlug: "iphone-15",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/2e821daf-30b0-4f87-b43c-679c00e04816/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -644,7 +651,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 15 Skins - Mellow Yellow",
     sku: "SKINIFY-IP15-MELLOWYELLOW",
     modelSlug: "iphone-15",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/d897a3ef-9041-462e-a35a-d60683e8ae8b/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -652,7 +660,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 15 Skins - Petal Pink",
     sku: "SKINIFY-IP15-PETALPINK",
     modelSlug: "iphone-15",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/2cd89def-423f-4eb1-8c43-f93df0439057/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -660,7 +669,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 15 Skins - Blush Pink",
     sku: "SKINIFY-IP15-BLUSHPINK",
     modelSlug: "iphone-15",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/be550ebb-87b8-47df-ad4f-a8aa3a89e767/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -668,7 +678,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 15 Skins - Emerald Green",
     sku: "SKINIFY-IP15-EMERALDGREEN",
     modelSlug: "iphone-15",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/e891467c-6575-43a6-b622-07ed5837dc90/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -676,7 +687,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 15 Skins - Lust Red",
     sku: "SKINIFY-IP15-LUSTRED",
     modelSlug: "iphone-15",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/c0710aec-d1c5-4b87-9420-30189b2bdfe3/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -684,7 +696,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 15 Skins - Lemon Yellow",
     sku: "SKINIFY-IP15-LEMONYELLOW",
     modelSlug: "iphone-15",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/18186a54-2565-4365-ad1f-71eb72b26cec/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -692,7 +705,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 15 Skins - Marble White",
     sku: "SKINIFY-IP15-MARBLEWHITE",
     modelSlug: "iphone-15",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/a7ab874d-a022-45bc-8a17-f5ce0d48615c/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -700,7 +714,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 15 Skins - Leather Black",
     sku: "SKINIFY-IP15-LEATHERBLACK",
     modelSlug: "iphone-15",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/c4af0ffa-1147-485f-bc2d-3959f2dd761e/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -708,7 +723,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 15 Skins - Titanium Black",
     sku: "SKINIFY-IP15-TITANIUMBLACK",
     modelSlug: "iphone-15",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/27f73382-bd39-4161-8b27-b0db6b870fb0/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
