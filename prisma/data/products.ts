@@ -734,7 +734,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S25 Edge Skins - Slate",
     sku: "SKINIFY-S25E-SLATE",
     modelSlug: "galaxy-s25-edge",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/b6cd5d36-e62d-4a78-8fdb-0567a01ca687/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 159000,
   },
@@ -742,7 +743,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S25 Edge Skins - Patina",
     sku: "SKINIFY-S25E-PATINA",
     modelSlug: "galaxy-s25-edge",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/16a99fd8-5663-4479-b525-b0df560c5226/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 159000,
   },
@@ -750,7 +752,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S25 Edge Skins - Black Camo",
     sku: "SKINIFY-S25E-BLACKCAMO",
     modelSlug: "galaxy-s25-edge",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/58826513-92fe-4356-8a1c-6026c7c062e7/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 159000,
   },
@@ -758,7 +761,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S25 Edge Skins - Matte Black",
     sku: "SKINIFY-S25E-MATTEBLACK",
     modelSlug: "galaxy-s25-edge",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/821677e6-b585-412b-8e55-77082228d072/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -766,7 +770,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S25 Edge Skins - Matte White",
     sku: "SKINIFY-S25E-MATTEWHITE",
     modelSlug: "galaxy-s25-edge",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/d40beb6c-1fee-4e28-b5ba-2964675a3675/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -774,7 +779,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S25 Edge Skins - Artic Blue",
     sku: "SKINIFY-S25E-ARTICBLUE",
     modelSlug: "galaxy-s25-edge",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/e47300a2-ba04-4390-9052-226c20b7000f/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -782,7 +788,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S25 Edge Skins - Glacial Green",
     sku: "SKINIFY-S25E-GLACIALGREEN",
     modelSlug: "galaxy-s25-edge",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/ef253e79-3a42-48e8-a630-6b03d4e691d0/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -790,7 +797,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S25 Edge Skins - Mellow Yellow",
     sku: "SKINIFY-S25E-MELLOWYELLOW",
     modelSlug: "galaxy-s25-edge",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/a251c5af-9cb2-48ae-b7bb-a8703e95647e/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -798,7 +806,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S25 Edge Skins - Petal Pink",
     sku: "SKINIFY-S25E-PETALPINK",
     modelSlug: "galaxy-s25-edge",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/441d2d54-b01c-4408-8bba-8c264c0ba9d2/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -806,7 +815,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S25 Edge Skins - Blush Pink",
     sku: "SKINIFY-S25E-BLUSHPINK",
     modelSlug: "galaxy-s25-edge",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/18378f73-54e3-4cbb-9886-fe8ac565122a/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -814,7 +824,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S25 Edge Skins - Emerald Green",
     sku: "SKINIFY-S25E-EMERALDGREEN",
     modelSlug: "galaxy-s25-edge",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/1d2d3bdf-da71-43ae-998c-d2e5e1793851/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -822,7 +833,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S25 Edge Skins - Lust Red",
     sku: "SKINIFY-S25E-LUSTRED",
     modelSlug: "galaxy-s25-edge",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/9fe65ca0-9b6e-4548-ba4c-7b50a21e97db/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -830,7 +842,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S25 Edge Skins - Lemon Yellow",
     sku: "SKINIFY-S25E-LEMONYELLOW",
     modelSlug: "galaxy-s25-edge",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/e62be3c5-bc5b-4f5e-a18d-f4176db53de7/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -838,7 +851,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S25 Edge Skins - Marble White",
     sku: "SKINIFY-S25E-MARBLEWHITE",
     modelSlug: "galaxy-s25-edge",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/0d072111-0ee7-446d-b666-d9ba75df2c1e/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -846,7 +860,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S25 Edge Skins - Leather Black",
     sku: "SKINIFY-S25E-LEATHERBLACK",
     modelSlug: "galaxy-s25-edge",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/13ea2b56-933b-4eab-898f-219d7ab1bca3/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -854,7 +869,8 @@ export const dataProducts: SeedProduct[] = [
     name: "Galaxy S25 Edge Skins - Titanium Black",
     sku: "SKINIFY-S25E-TITANIUMBLACK",
     modelSlug: "galaxy-s25-edge",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/0702a4b2-9d9b-4a3f-aba2-23ac671b6f8a/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
