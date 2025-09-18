@@ -149,7 +149,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16e Skins - Slate",
     sku: "SKINIFY-IP16E-SLATE",
     modelSlug: "iphone-16e",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/20cb54b5-1400-4b8b-8367-662e90ced05e/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 159000,
   },
@@ -157,7 +158,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16e Skins - Patina",
     sku: "SKINIFY-IP16E-PATINA",
     modelSlug: "iphone-16e",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/8fd48800-9332-47e1-a4f0-dc1aa33a7cf7/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 159000,
   },
@@ -165,7 +167,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16e Skins - Black Camo",
     sku: "SKINIFY-IP16E-BLACKCAMO",
     modelSlug: "iphone-16e",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/000a6623-6450-42be-a1e0-fce15556d962/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 159000,
   },
@@ -173,7 +176,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16e Skins - Matte Black",
     sku: "SKINIFY-IP16E-MATTEBLACK",
     modelSlug: "iphone-16e",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/14bf636a-69ce-43c8-8a28-4949b5e727f3/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -181,7 +185,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16e Skins - Matte White",
     sku: "SKINIFY-IP16E-MATTEWHITE",
     modelSlug: "iphone-16e",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/3fc79dbb-8236-436e-9698-d348017a774a/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -189,7 +194,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16e Skins - Artic Blue",
     sku: "SKINIFY-IP16E-ARTICBLUE",
     modelSlug: "iphone-16e",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/32789b45-6a44-4f46-969a-d1a261acd4a1/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -197,7 +203,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16e Skins - Glacial Green",
     sku: "SKINIFY-IP16E-GLACIALGREEN",
     modelSlug: "iphone-16e",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/03783c98-95af-4dc3-a220-f0981f864a64/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -205,7 +212,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16e Skins - Mellow Yellow",
     sku: "SKINIFY-IP16E-MELLOWYELLOW",
     modelSlug: "iphone-16e",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/32bb132c-a57a-4d90-99d0-31a86d56c8c0/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -213,7 +221,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16e Skins - Petal Pink",
     sku: "SKINIFY-IP16E-PETALPINK",
     modelSlug: "iphone-16e",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/b76ecea3-c7f7-462b-86d6-21f780b82a34/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -221,7 +230,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16e Skins - Blush Pink",
     sku: "SKINIFY-IP16E-BLUSHPINK",
     modelSlug: "iphone-16e",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/751708bc-7940-40e1-bd3d-c635fa8a0113/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -229,7 +239,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16e Skins - Emerald Green",
     sku: "SKINIFY-IP16E-EMERALDGREEN",
     modelSlug: "iphone-16e",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/b102b923-e3e7-48ce-8910-5818da5a9e5a/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -237,7 +248,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16e Skins - Lust Red",
     sku: "SKINIFY-IP16E-LUSTRED",
     modelSlug: "iphone-16e",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/5b3c2924-4edb-4bbd-94a4-b33b80b1d241/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -245,7 +257,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16e Skins - Lemon Yellow",
     sku: "SKINIFY-IP16E-LEMONYELLOW",
     modelSlug: "iphone-16e",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/244f8d1b-4ca3-4ea4-a0da-53a1f78c5230/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -253,7 +266,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16e Skins - Marble White",
     sku: "SKINIFY-IP16E-MARBLEWHITE",
     modelSlug: "iphone-16e",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/2eb6c0a3-df30-463b-803f-5e1c635ec17d/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -261,7 +275,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16e Skins - Leather Black",
     sku: "SKINIFY-IP16E-LEATHERBLACK",
     modelSlug: "iphone-16e",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/197b522d-dc9e-4ff7-b7c7-8d0bef6af7ef/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -269,7 +284,8 @@ export const dataProducts: SeedProduct[] = [
     name: "iPhone 16e Skins - Titanium Black",
     sku: "SKINIFY-IP16E-TITANIUMBLACK",
     modelSlug: "iphone-16e",
-    imageUrl: "",
+    imageUrl:
+      "https://ucarecdn.com/6c3a5956-a7dd-4dac-ae08-d331caa8ad68/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
