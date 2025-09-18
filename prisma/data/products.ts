@@ -908,7 +908,7 @@ export const dataProducts: SeedProduct[] = [
     sku: "SKINIFY-S25-MATTEBLACK",
     modelSlug: "galaxy-s25",
     imageUrl:
-      "https://ucarecdn.com/0d7daa25-5c52-4d85-ba66-210b135cdfa9/-/preview/1000x1000/",
+      "https://ucarecdn.com/23c134eb-3412-4dad-b069-9dba18b046ea/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
@@ -1313,6 +1313,7 @@ export const dataProducts: SeedProduct[] = [
   },
 
   // Samsung Galaxy S24
+  // Samsung Galaxy S24
   {
     name: "Galaxy S24 Skins - Slate",
     sku: "SKINIFY-S24-SLATE",
@@ -1345,7 +1346,7 @@ export const dataProducts: SeedProduct[] = [
     sku: "SKINIFY-S24-MATTEBLACK",
     modelSlug: "galaxy-s24",
     imageUrl:
-      "https://ucarecdn.com/0d7daa25-5c52-4d85-ba66-210b135cdfa9/-/preview/1000x1000/",
+      "https://ucarecdn.com/23c134eb-3412-4dad-b069-9dba18b046ea/-/preview/1000x1000/",
     stockQuantity: 100,
     price: 129000,
   },
